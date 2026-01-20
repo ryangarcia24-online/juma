@@ -52,7 +52,7 @@ body {
 /* Outline Button (Transparent with Cyan border) */
 .btn-outline {
     background-color: transparent;
-    color: #ffffff;
+    color: cyan;
     border: 2px solid #ffffff;
 }
 
@@ -67,15 +67,15 @@ body {
 
 .glass-container {
     /* Background color with transparency (Alpha channel 0.1 to 0.3) */
-    background: rgba(0, 0, 0, 0.80);
+    background: rgba(30, 41, 59, 0.7);
     /* The "Frosted Glass" effect */
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     /* Optional: Subtle border and rounded corners to make it pop */
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 20px;
     /* Shadow for depth */
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
 }
 
 /* Ensures the image stays centered on smaller screens */
